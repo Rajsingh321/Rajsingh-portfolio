@@ -201,7 +201,7 @@ st.markdown("""
 # --- Resume / CV ---
 st.markdown('<div class="section-header">📄 Resume</div>', unsafe_allow_html=True)
 try:
-    with open("Raj_Singh_Resume.pdf", "rb") as file:
+    with open("raj-portfolio/Raj_Singh_Resume.pdf", "rb") as file:
         st.download_button(
             label="📄 Download My Resume",
             data=file,
